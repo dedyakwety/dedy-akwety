@@ -5,6 +5,6 @@ $router->map('GET', '/', function(){
 });
 $router->map('GET', '/curriculumVitae', function(){
     require_once 'Public/Pages/curriculumVitae.php';
-});
-echo "dedy";
+})
 ?>
+<p>dedy</p>
